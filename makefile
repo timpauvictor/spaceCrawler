@@ -1,3 +1,3 @@
 make:
-	g++ src/*.cpp -o tuto -Iinclude -L. -ltcod -ltcodxx -Wl,-rpath=. -Wall
-	./tuto
+	g++ src/*.cpp -o exec -Iinclude -L. -ltcod -ltcodxx -Wl,-rpath=. -Wall
+	./exec
