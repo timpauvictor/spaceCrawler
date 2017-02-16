@@ -5,9 +5,9 @@ class Vector2 {
 		//getters and setters
 		int getX();
 		int getY();
-		void setX();
-		void setY();
+		void setX(int newX);
+		void setY(int newY);
 
 		float distanceTo(Vector2 p);
 
-}
+};
