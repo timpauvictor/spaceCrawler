@@ -1,7 +1,8 @@
 #include "libtcod.hpp"
 #include "headers/engine.hpp"
-
-Engine game;
+int _gameWidth = 150;
+int _gameHeight = 75;
+Engine game(_gameWidth, _gameHeight);
 
 int main() {
 	while (!TCODConsole::isWindowClosed()) {

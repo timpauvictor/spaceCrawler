@@ -1,8 +1,11 @@
 #include "libtcod.hpp"
 #include "headers/engine.hpp" //engine needs libtcod first
+#include "headers/gui.hpp"
 
-Engine::Engine() {
-	TCODConsole::initRoot(80, 50, "spaceCrawler dev", false); // required
+GUI gui;
+
+Engine::Engine(int x, int y) {
+	TCODConsole::initRoot(x, y, "spaceCrawler dev", false); // required
 }
 
 void Engine::update() { //

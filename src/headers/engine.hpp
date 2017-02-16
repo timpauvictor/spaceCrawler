@@ -5,7 +5,7 @@
 */
 class Engine {
 	public:
-		Engine();
+		Engine(int x, int y);
 		//~Engine();
 		void update();
 		void render();
