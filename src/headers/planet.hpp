@@ -1,6 +1,7 @@
 class Planet {
 	private:
-		int size, int maxPop;
+		int size, maxPop;
 		bool isColonized;
-		
+	public:
+		void render();
 };

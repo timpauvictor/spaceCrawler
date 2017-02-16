@@ -8,6 +8,6 @@ class Vector2 {
 		void setX();
 		void setY();
 
-		float distanceTo(Point p);
+		float distanceTo(Vector2 p);
 
 }
