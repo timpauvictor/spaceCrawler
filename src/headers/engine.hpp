@@ -9,4 +9,5 @@ class Engine {
 		//~Engine();
 		void update();
 		void render();
+		void updateLocation(char x[]);
 };

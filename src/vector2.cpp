@@ -17,5 +17,5 @@ void Vector2::setY(int newY) {
 }
 
 void distanceTo(Vector2 p) {
-
+    
 }
