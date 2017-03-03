@@ -11,18 +11,16 @@ Engine::Engine(int maxWidth, int maxHeight) {
 
 void Engine::update() {
 	TCODSystem::checkForEvent(TCOD_EVENT_KEY_PRESS, NULL, NULL); //required
-	//--------------------------------------------------------------------------
-	
 }
 
 
 void Engine::render() {
 	TCODConsole::root->clear(); //required
-	//--------------------------------------------------------
+	
 	TCODConsole::root->setChar(0, 0, 'c');
 	// NOTE: gui.render calls gui.update internally
 	gui.render();
-	//--------------------------------------------------------
+
 	TCODConsole::flush(); //required
 	TCODConsole::waitForKeypress(true);
 }

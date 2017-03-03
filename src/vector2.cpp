@@ -1,5 +1,10 @@
 #include "headers/vector2.hpp"
 
+Vector2::Vector2(int argX, int argY) {
+    x = argX;
+    y = argY;
+}
+
 int Vector2::getX() {
     return x;
 }
