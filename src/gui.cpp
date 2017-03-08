@@ -4,7 +4,7 @@
 #include <string>
 
 TCODConsole *guiCon = new TCODConsole(150, 5);
-Location *currentLocation = new Location("Earth");
+Location *currentLocation = new Location("Milky Way");
 
 GUI::GUI() {
 
