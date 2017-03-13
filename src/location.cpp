@@ -2,7 +2,7 @@
 #include <string>
 
 Location::Location(std::string Loc) { 
-    if (Loc.size() > 10) {
+    if (Loc.size() > 20) {
         name = "ERR:TooLong";
     } else {
         name = Loc;

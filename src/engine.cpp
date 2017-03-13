@@ -24,3 +24,5 @@ void Engine::render() {
 	TCODConsole::flush(); //required
 	TCODConsole::waitForKeypress(true);
 }
+
+
