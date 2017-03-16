@@ -4,7 +4,7 @@
 #include <string>
 
 TCODConsole *guiCon = new TCODConsole(150, 5);
-Location *currentLocation = new Location("Milky Way");
+Location currentLocation("Andromeda");
 
 GUI::GUI() {
 
@@ -22,10 +22,10 @@ void GUI::render() {
 }
 void GUI::update() {
 	char curBlurb[] = "Current Location: ";
-	strcat(curBlurb, currentLocation->getNameAsC());
+	strcat(curBlurb, currentLocation.getNameAsC());
 	guiCon->print(0, 0, curBlurb);
 }
 
 void GUI::changeLocation(std::string newLoc) {
-	currentLocation->changeLocation(newLoc);
+	currentLocation.changeLocation(newLoc);
 }
